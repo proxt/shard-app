@@ -86,7 +86,3 @@ Every piece of feedback matters, especially now, in alpha.
 - There is also a **«Сообщить об ошибке»** (Report a bug) button in the app.
 
 You can write in Russian or English. Please don't post passwords, verification codes or other personal data in issues.
-
-## This repository
-
-This repository only holds the description of Shard and a place for feedback — there is no source code here.
