@@ -1,0 +1,54 @@
+name: Ошибка / Bug
+description: Что-то работает не так / Something doesn't work right
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Спасибо, что помогаете сделать Shard лучше! Можно писать по-русски или по-английски.
+        Thanks for helping make Shard better! Russian or English is fine.
+
+        **Не публикуйте пароли, коды подтверждения и другие личные данные.**
+        **Don't post passwords, verification codes or other personal data.**
+  - type: textarea
+    id: what
+    attributes:
+      label: Что случилось / What happened
+      description: Коротко опишите ошибку / Describe the bug in short
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Как повторить / Steps to reproduce
+      placeholder: |
+        1. Открыть лобби… / Open a lobby…
+        2. Нажать… / Click…
+        3. Появляется… / … appears
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Что ожидали / What you expected
+  - type: dropdown
+    id: platform
+    attributes:
+      label: Где / Where
+      options:
+        - Приложение для Windows / Windows app
+        - Браузер на компьютере / Desktop browser
+        - Браузер на телефоне / Phone browser
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Версия приложения / App version
+      description: Видна на экране входа или в настройках / Shown on the sign-in screen or in settings
+      placeholder: "1.0.66"
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Скриншоты или видео / Screenshots or video
+      description: Перетащите файлы сюда / Drag files here

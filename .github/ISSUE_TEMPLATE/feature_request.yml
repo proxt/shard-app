@@ -1,0 +1,25 @@
+name: Идея / Idea
+description: Предложить новую функцию или улучшение / Suggest a feature or an improvement
+labels: ["idea"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Расскажите, чего не хватает в Shard. Можно писать по-русски или по-английски.
+        Tell us what Shard is missing. Russian or English is fine.
+  - type: textarea
+    id: idea
+    attributes:
+      label: Идея / Idea
+      description: Что хотелось бы видеть / What you'd like to see
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Зачем это нужно / Why it's needed
+      description: Какую задачу это решит / What problem it solves
+  - type: textarea
+    id: extra
+    attributes:
+      label: Пример или картинка / Example or picture
